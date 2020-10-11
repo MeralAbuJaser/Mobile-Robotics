@@ -1,0 +1,15 @@
+Assignment 1:
+
+Using the code supplied in https://github.com/venki666/CpE476_demos/tree/master/Arduino/Romi-NoRpi-Debug
+
+a) Develop the code to move the Romi Robot in a circle (you can use your own parameters)
+
+b) Develop the code to move the Romi Robot in a square/rectangle (you can use your own parameters)
+
+4) Install Typora on your host system and upload the first Assignment on your private github repository.
+
+
+Part a is found under Romi-NoRpi-Debug
+Part b is found under Romi32U4_Odometer_Test
+
+
