@@ -1,6 +1,5 @@
 #!/usr/bin/python2
 #
-# Move the robot forwards and backwards
 from romipi_astar.romipi_driver import AStar
 import time
 
@@ -22,9 +21,9 @@ def getch():
 def print_instructions():
     print ("press a to move in circle, b for square")
 
-# all set up, now run the robot
 print_instructions()
 while True:
+    #get Commands
     c = getch()
     if c.upper() == 'A': # circle
         for i in range(80):
@@ -41,7 +40,7 @@ while True:
     else:
         print_instructions()
         continue
-# stop motors and shut down light
+#stop motors
 romi.twist(0.0, 0.0)
 romi.pixels(0, 0, 0)
 
